@@ -1,0 +1,8 @@
+/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/CellObservation.idl
+/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/LocalScan.idl
+/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/MoveCommand.idl
+/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/EnemyDown.idl
+/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/RobotMetrics.idl
+/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/RobotResult.idl
+/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/StudentStatus.idl
+/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:srv/PayloadTrigger.idl

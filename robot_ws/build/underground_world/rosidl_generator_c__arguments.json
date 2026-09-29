@@ -1,0 +1,72 @@
+{
+  "package_name": "underground_world",
+  "output_dir": "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_generator_c/underground_world",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/CellObservation.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/LocalScan.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/MoveCommand.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/EnemyDown.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/RobotMetrics.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/RobotResult.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:msg/StudentStatus.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world:srv/PayloadTrigger.idl"
+  ],
+  "ros_interface_files": [
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world/msg/CellObservation.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world/msg/LocalScan.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world/msg/MoveCommand.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world/msg/EnemyDown.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world/msg/RobotMetrics.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world/msg/RobotResult.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world/msg/StudentStatus.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world/srv/PayloadTrigger.srv"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world/msg/CellObservation.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world/msg/LocalScan.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world/msg/MoveCommand.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world/msg/EnemyDown.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world/msg/RobotMetrics.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world/msg/RobotResult.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world/msg/StudentStatus.idl",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_adapter/underground_world/srv/PayloadTrigger.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/CellObservation.idl:/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_generator_type_description/underground_world/msg/CellObservation.json",
+    "msg/LocalScan.idl:/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_generator_type_description/underground_world/msg/LocalScan.json",
+    "msg/MoveCommand.idl:/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_generator_type_description/underground_world/msg/MoveCommand.json",
+    "msg/EnemyDown.idl:/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_generator_type_description/underground_world/msg/EnemyDown.json",
+    "msg/RobotMetrics.idl:/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_generator_type_description/underground_world/msg/RobotMetrics.json",
+    "msg/RobotResult.idl:/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_generator_type_description/underground_world/msg/RobotResult.json",
+    "msg/StudentStatus.idl:/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_generator_type_description/underground_world/msg/StudentStatus.json",
+    "srv/PayloadTrigger.idl:/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/rosidl_generator_type_description/underground_world/srv/PayloadTrigger.json"
+  ]
+}

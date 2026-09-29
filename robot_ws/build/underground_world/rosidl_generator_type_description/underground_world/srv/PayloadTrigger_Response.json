@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "underground_world/srv/PayloadTrigger_Response",
+      "fields": [
+        {
+          "name": "accepted",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "reason",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "underground_world/srv/PayloadTrigger_Response",
+      "hash_string": "RIHS01_cab29e699db6c4d674441814f7373784cb8650138f6c2acc9fcdd89d817277e7"
+    }
+  ]
+}

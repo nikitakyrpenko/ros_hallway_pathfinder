@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "underground_world__rs",
+		"source" : "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world/underground_world__rs"
+	}
+}

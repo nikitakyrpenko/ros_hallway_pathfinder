@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from underground_world/msg/LocalScan.msg
+// generated code does not contain a copyright notice
+
+#include "underground_world/msg/CellObservation.idl"
+
+module underground_world {
+  module msg {
+    struct LocalScan {
+      string scenario_name;
+
+      int32 robot_x;
+
+      int32 robot_y;
+
+      sequence<underground_world::msg::CellObservation> cells;
+    };
+  };
+};

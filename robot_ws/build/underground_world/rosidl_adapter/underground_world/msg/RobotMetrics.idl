@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from underground_world/msg/RobotMetrics.msg
+// generated code does not contain a copyright notice
+
+
+module underground_world {
+  module msg {
+    struct RobotMetrics {
+      string scenario_name;
+
+      uint32 steps_taken;
+
+      uint32 invalid_moves;
+
+      uint32 contacts_seen;
+
+      uint32 contacts_down;
+
+      uint32 invalid_triggers;
+
+      uint32 duplicate_triggers;
+
+      uint32 unique_cells_seen;
+
+      float map_coverage_percent;
+    };
+  };
+};

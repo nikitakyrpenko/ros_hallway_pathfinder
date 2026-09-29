@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/cell_observation__type_support_c.cpp.o"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/cell_observation__type_support_c.cpp.o.d"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/enemy_down__type_support_c.cpp.o"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/enemy_down__type_support_c.cpp.o.d"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/local_scan__type_support_c.cpp.o"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/local_scan__type_support_c.cpp.o.d"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/move_command__type_support_c.cpp.o"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/move_command__type_support_c.cpp.o.d"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/robot_metrics__type_support_c.cpp.o"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/robot_metrics__type_support_c.cpp.o.d"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/robot_result__type_support_c.cpp.o"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/robot_result__type_support_c.cpp.o.d"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/student_status__type_support_c.cpp.o"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/student_status__type_support_c.cpp.o.d"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/srv/detail/payload_trigger__type_support_c.cpp.o"
+  "CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/srv/detail/payload_trigger__type_support_c.cpp.o.d"
+  "libunderground_world__rosidl_typesupport_fastrtps_c.pdb"
+  "libunderground_world__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/cell_observation__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/cell_observation__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/enemy_down__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/enemy_down__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/local_scan__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/local_scan__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/move_command__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/move_command__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/robot_metrics__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/robot_metrics__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/robot_result__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/robot_result__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/student_status__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/underground_world/msg/detail/student_status__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/underground_world/srv/detail/payload_trigger__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/underground_world/srv/detail/payload_trigger__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

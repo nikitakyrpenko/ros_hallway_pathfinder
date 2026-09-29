@@ -1,0 +1,13 @@
+{
+  "package_name": "underground_world",
+  "non_idl_tuples": [
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world:msg/CellObservation.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world:msg/LocalScan.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world:msg/MoveCommand.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world:msg/EnemyDown.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world:msg/RobotMetrics.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world:msg/RobotResult.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world:msg/StudentStatus.msg",
+    "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world:srv/PayloadTrigger.srv"
+  ]
+}

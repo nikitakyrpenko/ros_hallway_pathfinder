@@ -1,0 +1,46 @@
+# Директорії збірки та локальний output мають відтворюватися з CMake.
+build/
+build-*/
+out/
+
+# CMake генерує ці файли при in-source або ручних локальних збірках.
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+compile_commands.json
+install_manifest.txt
+_deps/
+
+# Python bytecode з'являється після перевірки launch-файлів і не потрібен у repo.
+__pycache__/
+*.py[cod]
+
+# Мінімальний набір compiled/debug артефактів для C++ прикладів.
+*.d
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.dSYM/
+*.pdb
+core
+core.*
+
+# Метадані операційної системи не є частиною навчального репозиторію.
+.DS_Store
+Thumbs.db
+
+# ROS 2 workspace output and recordings.
+robot_ws/build/
+robot_ws/install/
+robot_ws/log/
+bags/
+reports/*.mcap
+reports/*.db3
+reports/*/

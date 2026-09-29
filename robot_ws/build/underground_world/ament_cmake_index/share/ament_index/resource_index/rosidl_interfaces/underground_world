@@ -1,0 +1,16 @@
+msg/CellObservation.idl
+msg/CellObservation.msg
+msg/EnemyDown.idl
+msg/EnemyDown.msg
+msg/LocalScan.idl
+msg/LocalScan.msg
+msg/MoveCommand.idl
+msg/MoveCommand.msg
+msg/RobotMetrics.idl
+msg/RobotMetrics.msg
+msg/RobotResult.idl
+msg/RobotResult.msg
+msg/StudentStatus.idl
+msg/StudentStatus.msg
+srv/PayloadTrigger.idl
+srv/PayloadTrigger.srv

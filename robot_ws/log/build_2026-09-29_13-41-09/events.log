@@ -1,0 +1,753 @@
+[0.000000] (-) TimerEvent: {}
+[0.000397] (underground_world) JobQueued: {'identifier': 'underground_world', 'dependencies': OrderedDict()}
+[0.000553] (underground_world) JobStarted: {'identifier': 'underground_world'}
+[0.013098] (underground_world) JobProgress: {'identifier': 'underground_world', 'progress': 'cmake'}
+[0.015039] (underground_world) Command: {'cmd': ['/usr/bin/cmake', '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/src/underground_world', '-DCMAKE_BUILD_TYPE=Debug', '-DCMAKE_INSTALL_PREFIX=/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world'], 'cwd': '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'HOSTNAME': 'devcontainer', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/helpers/browser.sh', 'HOME': '/home/mickaborscha', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds.xml', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-17b0d056-a668-4079-987a-378d366344d4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'DEBUGINFOD_URLS': 'https://debuginfod.elfutils.org', 'WAYLAND_DISPLAY': 'vscode-wayland-9d7bc2db-a93c-4777-83ab-2f09993696b5.sock', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-9804b96a-574c-42ae-8254-eb0a0f65e13b.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X0","/home/mickaborscha/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': '', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-9b7ee848f3.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X0', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': 'history -a; history -n', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VSCODE_NONCE': 'bc99de48-713e-422c-8d01-69a64eb9b008', 'PWD': '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Etc/UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099650] (-) TimerEvent: {}
+[0.160258] (underground_world) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.200052] (-) TimerEvent: {}
+[0.245901] (underground_world) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.264916] (underground_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300428] (-) TimerEvent: {}
+[0.347402] (underground_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.354706] (underground_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.355328] (underground_world) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.355839] (underground_world) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.364743] (underground_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400573] (-) TimerEvent: {}
+[0.447708] (underground_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.455139] (underground_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.455358] (underground_world) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.455754] (underground_world) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.463963] (underground_world) StdoutLine: {'line': b'-- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)\n'}
+[0.500708] (-) TimerEvent: {}
+[0.590561] (underground_world) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.600859] (-) TimerEvent: {}
+[0.701183] (-) TimerEvent: {}
+[0.782708] (underground_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.801342] (-) TimerEvent: {}
+[0.855578] (underground_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901524] (-) TimerEvent: {}
+[0.918835] (underground_world) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.001710] (-) TimerEvent: {}
+[1.033607] (underground_world) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.038619] (underground_world) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.076807] (underground_world) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.101825] (-) TimerEvent: {}
+[1.202146] (-) TimerEvent: {}
+[1.302422] (-) TimerEvent: {}
+[1.402683] (-) TimerEvent: {}
+[1.502905] (-) TimerEvent: {}
+[1.574643] (underground_world) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.602954] (-) TimerEvent: {}
+[1.703199] (-) TimerEvent: {}
+[1.803413] (-) TimerEvent: {}
+[1.903791] (-) TimerEvent: {}
+[1.912013] (underground_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.003892] (-) TimerEvent: {}
+[2.104202] (-) TimerEvent: {}
+[2.204509] (-) TimerEvent: {}
+[2.304900] (-) TimerEvent: {}
+[2.372421] (underground_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.377382] (underground_world) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.404985] (-) TimerEvent: {}
+[2.488748] (underground_world) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.505092] (-) TimerEvent: {}
+[2.605348] (-) TimerEvent: {}
+[2.705634] (-) TimerEvent: {}
+[2.805994] (-) TimerEvent: {}
+[2.842397] (underground_world) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.899055] (underground_world) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.906068] (-) TimerEvent: {}
+[2.906771] (underground_world) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.910930] (underground_world) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.993163] (underground_world) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.993921] (underground_world) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.006169] (-) TimerEvent: {}
+[3.008215] (underground_world) StdoutLine: {'line': b'-- Configuring done (2.9s)\n'}
+[3.106306] (-) TimerEvent: {}
+[3.117342] (underground_world) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[3.138060] (underground_world) StdoutLine: {'line': b'-- Build files have been written to: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world\n'}
+[3.149584] (underground_world) CommandEnded: {'returncode': 0}
+[3.150247] (underground_world) JobProgress: {'identifier': 'underground_world', 'progress': 'build'}
+[3.150928] (underground_world) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world', '--', '-j16', '-l16'], 'cwd': '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'HOSTNAME': 'devcontainer', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/helpers/browser.sh', 'HOME': '/home/mickaborscha', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds.xml', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-17b0d056-a668-4079-987a-378d366344d4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'DEBUGINFOD_URLS': 'https://debuginfod.elfutils.org', 'WAYLAND_DISPLAY': 'vscode-wayland-9d7bc2db-a93c-4777-83ab-2f09993696b5.sock', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-9804b96a-574c-42ae-8254-eb0a0f65e13b.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X0","/home/mickaborscha/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': '', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-9b7ee848f3.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X0', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': 'history -a; history -n', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VSCODE_NONCE': 'bc99de48-713e-422c-8d01-69a64eb9b008', 'PWD': '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Etc/UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.195587] (underground_world) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[3.196369] (underground_world) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[3.196683] (underground_world) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[3.196755] (underground_world) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[3.196821] (underground_world) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/underground_world_core.dir/src/scenario_loader.cpp.o\x1b[0m\n'}
+[3.197198] (underground_world) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/underground_world_core.dir/src/pathfinder_service.cpp.o\x1b[0m\n'}
+[3.197337] (underground_world) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/underground_world_core.dir/src/world_model.cpp.o\x1b[0m\n'}
+[3.205522] (underground_world) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_underground_world\n'}
+[3.206334] (-) TimerEvent: {}
+[3.306662] (-) TimerEvent: {}
+[3.402651] (underground_world) StdoutLine: {'line': b'running egg_info\n'}
+[3.403564] (underground_world) StdoutLine: {'line': b'creating underground_world.egg-info\n'}
+[3.406748] (-) TimerEvent: {}
+[3.416313] (underground_world) StdoutLine: {'line': b'writing underground_world.egg-info/PKG-INFO\n'}
+[3.416816] (underground_world) StdoutLine: {'line': b'writing dependency_links to underground_world.egg-info/dependency_links.txt\n'}
+[3.417112] (underground_world) StdoutLine: {'line': b'writing top-level names to underground_world.egg-info/top_level.txt\n'}
+[3.417301] (underground_world) StdoutLine: {'line': b"writing manifest file 'underground_world.egg-info/SOURCES.txt'\n"}
+[3.461918] (underground_world) StdoutLine: {'line': b"reading manifest file 'underground_world.egg-info/SOURCES.txt'\n"}
+[3.462433] (underground_world) StdoutLine: {'line': b"writing manifest file 'underground_world.egg-info/SOURCES.txt'\n"}
+[3.497525] (underground_world) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_underground_world_egg\n'}
+[3.506876] (-) TimerEvent: {}
+[3.510142] (underground_world) StdoutLine: {'line': b'[  5%] Built target underground_world__rosidl_generator_type_description\n'}
+[3.519226] (underground_world) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.530502] (underground_world) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.562095] (underground_world) StdoutLine: {'line': b'[  7%] Built target underground_world__rs\n'}
+[3.606975] (-) TimerEvent: {}
+[3.707276] (-) TimerEvent: {}
+[3.807509] (-) TimerEvent: {}
+[3.907765] (-) TimerEvent: {}
+[4.008028] (-) TimerEvent: {}
+[4.083915] (underground_world) StdoutLine: {'line': b'[  7%] Built target underground_world__cpp\n'}
+[4.108126] (-) TimerEvent: {}
+[4.208398] (-) TimerEvent: {}
+[4.213716] (underground_world) StdoutLine: {'line': b'[  8%] \x1b[32m\x1b[1mLinking CXX shared library libunderground_world_core.so\x1b[0m\n'}
+[4.218190] (underground_world) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/local_scan__functions.c.o\x1b[0m\n'}
+[4.218577] (underground_world) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/cell_observation__functions.c.o\x1b[0m\n'}
+[4.218918] (underground_world) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/cell_observation__description.c.o\x1b[0m\n'}
+[4.219076] (underground_world) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/local_scan__description.c.o\x1b[0m\n'}
+[4.219178] (underground_world) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/local_scan__type_support.c.o\x1b[0m\n'}
+[4.219246] (underground_world) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/move_command__functions.c.o\x1b[0m\n'}
+[4.219447] (underground_world) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/move_command__description.c.o\x1b[0m\n'}
+[4.219663] (underground_world) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/cell_observation__type_support.c.o\x1b[0m\n'}
+[4.219782] (underground_world) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/move_command__type_support.c.o\x1b[0m\n'}
+[4.220021] (underground_world) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/enemy_down__functions.c.o\x1b[0m\n'}
+[4.220150] (underground_world) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/enemy_down__description.c.o\x1b[0m\n'}
+[4.221212] (underground_world) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/enemy_down__type_support.c.o\x1b[0m\n'}
+[4.227256] (underground_world) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/robot_metrics__description.c.o\x1b[0m\n'}
+[4.258249] (underground_world) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/robot_metrics__functions.c.o\x1b[0m\n'}
+[4.260789] (underground_world) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/robot_metrics__type_support.c.o\x1b[0m\n'}
+[4.263676] (underground_world) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/robot_result__description.c.o\x1b[0m\n'}
+[4.265724] (underground_world) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/robot_result__functions.c.o\x1b[0m\n'}
+[4.267678] (underground_world) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/student_status__description.c.o\x1b[0m\n'}
+[4.268226] (underground_world) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/student_status__functions.c.o\x1b[0m\n'}
+[4.268402] (underground_world) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/robot_result__type_support.c.o\x1b[0m\n'}
+[4.272952] (underground_world) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/msg/detail/student_status__type_support.c.o\x1b[0m\n'}
+[4.274478] (underground_world) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/srv/detail/payload_trigger__description.c.o\x1b[0m\n'}
+[4.278102] (underground_world) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/srv/detail/payload_trigger__functions.c.o\x1b[0m\n'}
+[4.278348] (underground_world) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_c.dir/rosidl_generator_c/underground_world/srv/detail/payload_trigger__type_support.c.o\x1b[0m\n'}
+[4.298313] (underground_world) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[4.308536] (-) TimerEvent: {}
+[4.354441] (underground_world) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking C shared library libunderground_world__rosidl_generator_c.so\x1b[0m\n'}
+[4.376375] (underground_world) StdoutLine: {'line': b'[ 30%] Built target underground_world_core\n'}
+[4.389722] (underground_world) StdoutLine: {'line': b'[ 30%] Built target gtest_main\n'}
+[4.390247] (underground_world) StdoutLine: {'line': b'[ 30%] Built target underground_world__rosidl_generator_c\n'}
+[4.399008] (underground_world) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.399221] (underground_world) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.399301] (underground_world) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.399775] (underground_world) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.399923] (underground_world) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.400457] (underground_world) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.408641] (-) TimerEvent: {}
+[4.508985] (-) TimerEvent: {}
+[4.609286] (-) TimerEvent: {}
+[4.709548] (-) TimerEvent: {}
+[4.762172] (underground_world) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/underground_world/msg/enemy_down__type_support.cpp.o\x1b[0m\n'}
+[4.762769] (underground_world) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/underground_world/msg/local_scan__type_support.cpp.o\x1b[0m\n'}
+[4.763010] (underground_world) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/underground_world/msg/cell_observation__type_support.cpp.o\x1b[0m\n'}
+[4.763144] (underground_world) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/underground_world/msg/move_command__type_support.cpp.o\x1b[0m\n'}
+[4.763298] (underground_world) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/underground_world/msg/robot_metrics__type_support.cpp.o\x1b[0m\n'}
+[4.763460] (underground_world) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/underground_world/srv/payload_trigger__type_support.cpp.o\x1b[0m\n'}
+[4.763954] (underground_world) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/underground_world/msg/student_status__type_support.cpp.o\x1b[0m\n'}
+[4.764173] (underground_world) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/underground_world/msg/robot_result__type_support.cpp.o\x1b[0m\n'}
+[4.772223] (underground_world) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_c.dir/rosidl_typesupport_c/underground_world/msg/move_command__type_support.cpp.o\x1b[0m\n'}
+[4.772486] (underground_world) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_c.dir/rosidl_typesupport_c/underground_world/msg/local_scan__type_support.cpp.o\x1b[0m\n'}
+[4.772610] (underground_world) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_c.dir/rosidl_typesupport_c/underground_world/msg/cell_observation__type_support.cpp.o\x1b[0m\n'}
+[4.809639] (-) TimerEvent: {}
+[4.827200] (underground_world) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_c.dir/rosidl_typesupport_c/underground_world/msg/enemy_down__type_support.cpp.o\x1b[0m\n'}
+[4.829950] (underground_world) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_c.dir/rosidl_typesupport_c/underground_world/msg/robot_metrics__type_support.cpp.o\x1b[0m\n'}
+[4.836337] (underground_world) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_c.dir/rosidl_typesupport_c/underground_world/msg/robot_result__type_support.cpp.o\x1b[0m\n'}
+[4.889138] (underground_world) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_c.dir/rosidl_typesupport_c/underground_world/msg/student_status__type_support.cpp.o\x1b[0m\n'}
+[4.896465] (underground_world) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_c.dir/rosidl_typesupport_c/underground_world/srv/payload_trigger__type_support.cpp.o\x1b[0m\n'}
+[4.909731] (-) TimerEvent: {}
+[4.951333] (underground_world) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/underground_world/msg/detail/cell_observation__type_support.c.o\x1b[0m\n'}
+[4.960776] (underground_world) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libunderground_world__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.962663] (underground_world) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/underground_world/msg/detail/local_scan__type_support.c.o\x1b[0m\n'}
+[4.980245] (underground_world) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/underground_world/msg/detail/move_command__type_support.c.o\x1b[0m\n'}
+[5.005936] (underground_world) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/underground_world/msg/detail/enemy_down__type_support.c.o\x1b[0m\n'}
+[5.007774] (underground_world) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/underground_world/msg/detail/cell_observation__type_support.cpp.o\x1b[0m\n'}
+[5.011030] (-) TimerEvent: {}
+[5.012958] (underground_world) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/underground_world/msg/detail/robot_metrics__type_support.c.o\x1b[0m\n'}
+[5.020979] (underground_world) StdoutLine: {'line': b'[ 55%] Built target underground_world__rosidl_typesupport_c\n'}
+[5.034099] (underground_world) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/underground_world/msg/detail/local_scan__type_support.cpp.o\x1b[0m\n'}
+[5.054664] (underground_world) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/underground_world/msg/detail/move_command__type_support.cpp.o\x1b[0m\n'}
+[5.069970] (underground_world) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/underground_world/msg/detail/robot_result__type_support.c.o\x1b[0m\n'}
+[5.073491] (underground_world) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/underground_world/msg/detail/student_status__type_support.c.o\x1b[0m\n'}
+[5.111154] (-) TimerEvent: {}
+[5.138211] (underground_world) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/underground_world/srv/detail/payload_trigger__type_support.c.o\x1b[0m\n'}
+[5.141276] (underground_world) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/underground_world/msg/detail/enemy_down__type_support.cpp.o\x1b[0m\n'}
+[5.142293] (underground_world) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/underground_world/msg/detail/robot_metrics__type_support.cpp.o\x1b[0m\n'}
+[5.142529] (underground_world) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/underground_world/msg/detail/robot_result__type_support.cpp.o\x1b[0m\n'}
+[5.150769] (underground_world) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/underground_world/msg/detail/student_status__type_support.cpp.o\x1b[0m\n'}
+[5.152053] (underground_world) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/underground_world/srv/detail/payload_trigger__type_support.cpp.o\x1b[0m\n'}
+[5.165587] (underground_world) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/underground_world/msg/detail/dds_fastrtps/local_scan__type_support.cpp.o\x1b[0m\n'}
+[5.165869] (underground_world) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/underground_world/msg/detail/dds_fastrtps/cell_observation__type_support.cpp.o\x1b[0m\n'}
+[5.166136] (underground_world) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/underground_world/msg/detail/dds_fastrtps/enemy_down__type_support.cpp.o\x1b[0m\n'}
+[5.168423] (underground_world) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/underground_world/msg/detail/dds_fastrtps/move_command__type_support.cpp.o\x1b[0m\n'}
+[5.170846] (underground_world) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/cell_observation__type_support_c.cpp.o\x1b[0m\n'}
+[5.203617] (underground_world) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libunderground_world__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.211264] (-) TimerEvent: {}
+[5.256071] (underground_world) StdoutLine: {'line': b'[ 67%] Built target underground_world__rosidl_typesupport_introspection_c\n'}
+[5.266866] (underground_world) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/underground_world/msg/detail/dds_fastrtps/robot_metrics__type_support.cpp.o\x1b[0m\n'}
+[5.279859] (underground_world) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libunderground_world__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.311447] (-) TimerEvent: {}
+[5.388012] (underground_world) StdoutLine: {'line': b'[ 69%] Built target underground_world__rosidl_typesupport_cpp\n'}
+[5.410721] (underground_world) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/local_scan__type_support_c.cpp.o\x1b[0m\n'}
+[5.411528] (-) TimerEvent: {}
+[5.421273] (underground_world) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/underground_world_node.dir/src/underground_world_node.cpp.o\x1b[0m\n'}
+[5.438434] (underground_world) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/move_command__type_support_c.cpp.o\x1b[0m\n'}
+[5.482031] (underground_world) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/enemy_down__type_support_c.cpp.o\x1b[0m\n'}
+[5.510281] (underground_world) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/robot_metrics__type_support_c.cpp.o\x1b[0m\n'}
+[5.511624] (-) TimerEvent: {}
+[5.523157] (underground_world) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/robot_result__type_support_c.cpp.o\x1b[0m\n'}
+[5.548701] (underground_world) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/msg/detail/student_status__type_support_c.cpp.o\x1b[0m\n'}
+[5.550830] (underground_world) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/pathfinder_move_node.dir/src/pathfinder_move_node.cpp.o\x1b[0m\n'}
+[5.612177] (-) TimerEvent: {}
+[5.712521] (-) TimerEvent: {}
+[5.726844] (underground_world) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libunderground_world__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.747485] (underground_world) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/underground_world/msg/detail/dds_fastrtps/robot_result__type_support.cpp.o\x1b[0m\n'}
+[5.770875] (underground_world) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/underground_world/srv/detail/payload_trigger__type_support_c.cpp.o\x1b[0m\n'}
+[5.788136] (underground_world) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/underground_world/msg/detail/dds_fastrtps/student_status__type_support.cpp.o\x1b[0m\n'}
+[5.794350] (underground_world) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/underground_world__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/underground_world/srv/detail/dds_fastrtps/payload_trigger__type_support.cpp.o\x1b[0m\n'}
+[5.812637] (-) TimerEvent: {}
+[5.850068] (underground_world) StdoutLine: {'line': b'[ 80%] Built target underground_world__rosidl_typesupport_introspection_cpp\n'}
+[5.871183] (underground_world) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/payload_trigger_node.dir/src/payload_trigger_node.cpp.o\x1b[0m\n'}
+[5.912748] (-) TimerEvent: {}
+[6.013188] (-) TimerEvent: {}
+[6.113529] (-) TimerEvent: {}
+[6.213858] (-) TimerEvent: {}
+[6.314295] (-) TimerEvent: {}
+[6.325705] (underground_world) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libunderground_world__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.396704] (underground_world) StdoutLine: {'line': b'[ 82%] Built target underground_world__rosidl_typesupport_fastrtps_c\n'}
+[6.414412] (-) TimerEvent: {}
+[6.462119] (underground_world) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libunderground_world__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.514540] (-) TimerEvent: {}
+[6.536376] (underground_world) StdoutLine: {'line': b'[ 83%] Built target underground_world__rosidl_typesupport_fastrtps_cpp\n'}
+[6.556957] (underground_world) StdoutLine: {'line': b'[ 83%] Built target underground_world\n'}
+[6.577396] (underground_world) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.614657] (-) TimerEvent: {}
+[6.714937] (-) TimerEvent: {}
+[6.815248] (-) TimerEvent: {}
+[6.915591] (-) TimerEvent: {}
+[7.015866] (-) TimerEvent: {}
+[7.116149] (-) TimerEvent: {}
+[7.216500] (-) TimerEvent: {}
+[7.316917] (-) TimerEvent: {}
+[7.396622] (underground_world) StdoutLine: {'line': b'[ 83%] Built target underground_world__py\n'}
+[7.414714] (underground_world) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_py.dir/rosidl_generator_py/underground_world/msg/_local_scan_s.c.o\x1b[0m\n'}
+[7.415148] (underground_world) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_py.dir/rosidl_generator_py/underground_world/msg/_move_command_s.c.o\x1b[0m\n'}
+[7.415312] (underground_world) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_py.dir/rosidl_generator_py/underground_world/msg/_robot_metrics_s.c.o\x1b[0m\n'}
+[7.415523] (underground_world) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_py.dir/rosidl_generator_py/underground_world/msg/_enemy_down_s.c.o\x1b[0m\n'}
+[7.415679] (underground_world) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_py.dir/rosidl_generator_py/underground_world/msg/_cell_observation_s.c.o\x1b[0m\n'}
+[7.415781] (underground_world) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_py.dir/rosidl_generator_py/underground_world/msg/_student_status_s.c.o\x1b[0m\n'}
+[7.415880] (underground_world) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_py.dir/rosidl_generator_py/underground_world/srv/_payload_trigger_s.c.o\x1b[0m\n'}
+[7.416069] (underground_world) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/underground_world__rosidl_generator_py.dir/rosidl_generator_py/underground_world/msg/_robot_result_s.c.o\x1b[0m\n'}
+[7.416996] (-) TimerEvent: {}
+[7.517291] (-) TimerEvent: {}
+[7.612175] (underground_world) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library libunderground_world__rosidl_generator_py.so\x1b[0m\n'}
+[7.617395] (-) TimerEvent: {}
+[7.657907] (underground_world) StdoutLine: {'line': b'[ 90%] Built target underground_world__rosidl_generator_py\n'}
+[7.675798] (underground_world) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/underground_world_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/underground_world/_underground_world_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.676111] (underground_world) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/underground_world_s__rosidl_typesupport_c.dir/rosidl_generator_py/underground_world/_underground_world_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.676637] (underground_world) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/underground_world_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/underground_world/_underground_world_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.717525] (-) TimerEvent: {}
+[7.798990] (underground_world) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/underground_world/underground_world_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.804649] (underground_world) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/underground_world/underground_world_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.810438] (underground_world) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/underground_world/underground_world_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.817657] (-) TimerEvent: {}
+[7.828059] (underground_world) StdoutLine: {'line': b'[ 95%] Built target underground_world_s__rosidl_typesupport_introspection_c\n'}
+[7.833321] (underground_world) StdoutLine: {'line': b'[ 95%] Built target underground_world_s__rosidl_typesupport_c\n'}
+[7.844577] (underground_world) StdoutLine: {'line': b'[ 95%] Built target underground_world_s__rosidl_typesupport_fastrtps_c\n'}
+[7.917772] (-) TimerEvent: {}
+[8.018103] (-) TimerEvent: {}
+[8.118431] (-) TimerEvent: {}
+[8.218736] (-) TimerEvent: {}
+[8.274276] (underground_world) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[8.318877] (-) TimerEvent: {}
+[8.378867] (underground_world) StdoutLine: {'line': b'[ 96%] Built target gtest\n'}
+[8.397178] (underground_world) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/provided_world_contract_test.dir/test/provided_world_contract_test.cpp.o\x1b[0m\n'}
+[8.418986] (-) TimerEvent: {}
+[8.519370] (-) TimerEvent: {}
+[8.619713] (-) TimerEvent: {}
+[8.720127] (-) TimerEvent: {}
+[8.820466] (-) TimerEvent: {}
+[8.920888] (-) TimerEvent: {}
+[9.021271] (-) TimerEvent: {}
+[9.121591] (-) TimerEvent: {}
+[9.221964] (-) TimerEvent: {}
+[9.322484] (-) TimerEvent: {}
+[9.422919] (-) TimerEvent: {}
+[9.523283] (-) TimerEvent: {}
+[9.623748] (-) TimerEvent: {}
+[9.724884] (-) TimerEvent: {}
+[9.825343] (-) TimerEvent: {}
+[9.925757] (-) TimerEvent: {}
+[10.026211] (-) TimerEvent: {}
+[10.046377] (underground_world) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable provided_world_contract_test\x1b[0m\n'}
+[10.126441] (-) TimerEvent: {}
+[10.226788] (-) TimerEvent: {}
+[10.230332] (underground_world) StdoutLine: {'line': b'[ 98%] Built target provided_world_contract_test\n'}
+[10.326909] (-) TimerEvent: {}
+[10.427222] (-) TimerEvent: {}
+[10.527548] (-) TimerEvent: {}
+[10.627950] (-) TimerEvent: {}
+[10.728258] (-) TimerEvent: {}
+[10.828632] (-) TimerEvent: {}
+[10.928944] (-) TimerEvent: {}
+[11.029288] (-) TimerEvent: {}
+[11.129633] (-) TimerEvent: {}
+[11.230000] (-) TimerEvent: {}
+[11.330453] (-) TimerEvent: {}
+[11.430797] (-) TimerEvent: {}
+[11.531197] (-) TimerEvent: {}
+[11.631689] (-) TimerEvent: {}
+[11.732060] (-) TimerEvent: {}
+[11.832447] (-) TimerEvent: {}
+[11.905567] (underground_world) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX executable payload_trigger_node\x1b[0m\n'}
+[11.932559] (-) TimerEvent: {}
+[12.032878] (-) TimerEvent: {}
+[12.064714] (underground_world) StdoutLine: {'line': b'[ 99%] Built target payload_trigger_node\n'}
+[12.133032] (-) TimerEvent: {}
+[12.233379] (-) TimerEvent: {}
+[12.333690] (-) TimerEvent: {}
+[12.433993] (-) TimerEvent: {}
+[12.534348] (-) TimerEvent: {}
+[12.634759] (-) TimerEvent: {}
+[12.735120] (-) TimerEvent: {}
+[12.835408] (-) TimerEvent: {}
+[12.935747] (-) TimerEvent: {}
+[13.036199] (-) TimerEvent: {}
+[13.136530] (-) TimerEvent: {}
+[13.237066] (-) TimerEvent: {}
+[13.337476] (-) TimerEvent: {}
+[13.437827] (-) TimerEvent: {}
+[13.538567] (-) TimerEvent: {}
+[13.638966] (-) TimerEvent: {}
+[13.739309] (-) TimerEvent: {}
+[13.839998] (-) TimerEvent: {}
+[13.940461] (-) TimerEvent: {}
+[14.040927] (-) TimerEvent: {}
+[14.141319] (-) TimerEvent: {}
+[14.241713] (-) TimerEvent: {}
+[14.342165] (-) TimerEvent: {}
+[14.442517] (-) TimerEvent: {}
+[14.542943] (-) TimerEvent: {}
+[14.643288] (-) TimerEvent: {}
+[14.743726] (-) TimerEvent: {}
+[14.844156] (-) TimerEvent: {}
+[14.944547] (-) TimerEvent: {}
+[15.045006] (-) TimerEvent: {}
+[15.145550] (-) TimerEvent: {}
+[15.246057] (-) TimerEvent: {}
+[15.346529] (-) TimerEvent: {}
+[15.446821] (-) TimerEvent: {}
+[15.547148] (-) TimerEvent: {}
+[15.647613] (-) TimerEvent: {}
+[15.748059] (-) TimerEvent: {}
+[15.848544] (-) TimerEvent: {}
+[15.949073] (-) TimerEvent: {}
+[16.049529] (-) TimerEvent: {}
+[16.149987] (-) TimerEvent: {}
+[16.250478] (-) TimerEvent: {}
+[16.351077] (-) TimerEvent: {}
+[16.451552] (-) TimerEvent: {}
+[16.552002] (-) TimerEvent: {}
+[16.652433] (-) TimerEvent: {}
+[16.718897] (underground_world) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX executable pathfinder_move_node\x1b[0m\n'}
+[16.752611] (-) TimerEvent: {}
+[16.853090] (-) TimerEvent: {}
+[16.953495] (-) TimerEvent: {}
+[17.053832] (-) TimerEvent: {}
+[17.059109] (underground_world) StdoutLine: {'line': b'[ 99%] Built target pathfinder_move_node\n'}
+[17.153948] (-) TimerEvent: {}
+[17.254350] (-) TimerEvent: {}
+[17.354784] (-) TimerEvent: {}
+[17.455068] (-) TimerEvent: {}
+[17.555376] (-) TimerEvent: {}
+[17.655754] (-) TimerEvent: {}
+[17.756342] (-) TimerEvent: {}
+[17.856798] (-) TimerEvent: {}
+[17.957194] (-) TimerEvent: {}
+[18.057690] (-) TimerEvent: {}
+[18.158106] (-) TimerEvent: {}
+[18.258429] (-) TimerEvent: {}
+[18.358750] (-) TimerEvent: {}
+[18.459073] (-) TimerEvent: {}
+[18.559399] (-) TimerEvent: {}
+[18.659710] (-) TimerEvent: {}
+[18.760063] (-) TimerEvent: {}
+[18.860370] (-) TimerEvent: {}
+[18.960930] (-) TimerEvent: {}
+[19.070493] (-) TimerEvent: {}
+[19.170905] (-) TimerEvent: {}
+[19.271254] (-) TimerEvent: {}
+[19.277833] (underground_world) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable underground_world_node\x1b[0m\n'}
+[19.371457] (-) TimerEvent: {}
+[19.471991] (-) TimerEvent: {}
+[19.572428] (-) TimerEvent: {}
+[19.672897] (-) TimerEvent: {}
+[19.702683] (underground_world) StdoutLine: {'line': b'[100%] Built target underground_world_node\n'}
+[19.715033] (underground_world) CommandEnded: {'returncode': 0}
+[19.715659] (underground_world) JobProgress: {'identifier': 'underground_world', 'progress': 'install'}
+[19.722710] (underground_world) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world'], 'cwd': '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world', 'env': OrderedDict({'LANGUAGE': 'en_US:en', 'HOSTNAME': 'devcontainer', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/helpers/browser.sh', 'HOME': '/home/mickaborscha', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds.xml', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-17b0d056-a668-4079-987a-378d366344d4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'DEBUGINFOD_URLS': 'https://debuginfod.elfutils.org', 'WAYLAND_DISPLAY': 'vscode-wayland-9d7bc2db-a93c-4777-83ab-2f09993696b5.sock', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-9804b96a-574c-42ae-8254-eb0a0f65e13b.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X0","/home/mickaborscha/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': '', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-9b7ee848f3.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X0', 'SHELL': '/bin/bash', 'PROMPT_COMMAND': 'history -a; history -n', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VSCODE_NONCE': 'bc99de48-713e-422c-8d01-69a64eb9b008', 'PWD': '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/build/underground_world', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'TZ': 'Etc/UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[19.729182] (underground_world) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[19.730501] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/ament_index/resource_index/rosidl_interfaces/underground_world\n'}
+[19.731270] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/CellObservation.json\n'}
+[19.731650] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/LocalScan.json\n'}
+[19.731837] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/MoveCommand.json\n'}
+[19.732074] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/EnemyDown.json\n'}
+[19.732150] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/RobotMetrics.json\n'}
+[19.732280] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/RobotResult.json\n'}
+[19.732455] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/StudentStatus.json\n'}
+[19.733073] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/srv/PayloadTrigger.json\n'}
+[19.733370] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world\n'}
+[19.734530] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv\n'}
+[19.734841] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail\n'}
+[19.735179] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__struct.h\n'}
+[19.735393] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__description.c\n'}
+[19.735588] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__type_support.h\n'}
+[19.735932] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__functions.h\n'}
+[19.736034] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__type_support.c\n'}
+[19.736156] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__functions.c\n'}
+[19.736260] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/payload_trigger.h\n'}
+[19.736347] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg\n'}
+[19.736796] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/move_command.h\n'}
+[19.736949] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/student_status.h\n'}
+[19.737168] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/robot_result.h\n'}
+[19.737424] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail\n'}
+[19.737601] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__functions.h\n'}
+[19.737771] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__description.c\n'}
+[19.737961] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__functions.c\n'}
+[19.738043] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__type_support.h\n'}
+[19.738172] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__type_support.c\n'}
+[19.738346] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__description.c\n'}
+[19.738438] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__functions.c\n'}
+[19.738558] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__type_support.c\n'}
+[19.738675] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__description.c\n'}
+[19.738787] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__description.c\n'}
+[19.738951] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__struct.h\n'}
+[19.739225] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__functions.h\n'}
+[19.739429] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__struct.h\n'}
+[19.739608] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__type_support.c\n'}
+[19.739852] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__type_support.h\n'}
+[19.740001] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__description.c\n'}
+[19.740167] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__functions.h\n'}
+[19.740256] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__struct.h\n'}
+[19.740321] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__functions.c\n'}
+[19.740388] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__functions.c\n'}
+[19.740559] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__struct.h\n'}
+[19.740705] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__type_support.c\n'}
+[19.740808] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__struct.h\n'}
+[19.740945] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__functions.h\n'}
+[19.741007] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__type_support.h\n'}
+[19.741153] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__type_support.c\n'}
+[19.741252] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__type_support.c\n'}
+[19.741391] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__functions.c\n'}
+[19.741589] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__struct.h\n'}
+[19.741661] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__description.c\n'}
+[19.741774] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__functions.c\n'}
+[19.741902] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__functions.h\n'}
+[19.742028] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__struct.h\n'}
+[19.742086] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__functions.h\n'}
+[19.742189] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__description.c\n'}
+[19.742320] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__type_support.c\n'}
+[19.742410] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__functions.h\n'}
+[19.742536] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__type_support.h\n'}
+[19.742667] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__functions.c\n'}
+[19.742815] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__type_support.h\n'}
+[19.742952] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__type_support.h\n'}
+[19.743093] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__type_support.h\n'}
+[19.743304] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.743527] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/cell_observation.h\n'}
+[19.743681] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/enemy_down.h\n'}
+[19.743780] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/local_scan.h\n'}
+[19.743952] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/robot_metrics.h\n'}
+[19.744212] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/environment/library_path.sh\n'}
+[19.744394] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/environment/library_path.dsv\n'}
+[19.744835] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_generator_c.so\n'}
+[19.745472] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_generator_c.so" to ""\n'}
+[19.745659] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world\n'}
+[19.745750] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv\n'}
+[19.745870] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail\n'}
+[19.745933] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__rosidl_typesupport_fastrtps_c.h\n'}
+[19.746072] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg\n'}
+[19.746248] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.746435] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail\n'}
+[19.746499] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__rosidl_typesupport_fastrtps_c.h\n'}
+[19.746583] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__rosidl_typesupport_fastrtps_c.h\n'}
+[19.746759] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__rosidl_typesupport_fastrtps_c.h\n'}
+[19.747017] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__rosidl_typesupport_fastrtps_c.h\n'}
+[19.747113] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__rosidl_typesupport_fastrtps_c.h\n'}
+[19.747177] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__rosidl_typesupport_fastrtps_c.h\n'}
+[19.747284] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__rosidl_typesupport_fastrtps_c.h\n'}
+[19.747363] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_typesupport_fastrtps_c.so\n'}
+[19.748607] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.748942] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world\n'}
+[19.749011] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv\n'}
+[19.749144] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail\n'}
+[19.749276] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__rosidl_typesupport_introspection_c.h\n'}
+[19.749402] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__type_support.c\n'}
+[19.749462] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg\n'}
+[19.749570] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail\n'}
+[19.749666] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__type_support.c\n'}
+[19.749740] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__type_support.c\n'}
+[19.749815] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__rosidl_typesupport_introspection_c.h\n'}
+[19.749871] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__type_support.c\n'}
+[19.749961] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__rosidl_typesupport_introspection_c.h\n'}
+[19.750126] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__type_support.c\n'}
+[19.750194] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__type_support.c\n'}
+[19.750290] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__rosidl_typesupport_introspection_c.h\n'}
+[19.750405] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__type_support.c\n'}
+[19.750604] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__rosidl_typesupport_introspection_c.h\n'}
+[19.750725] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__rosidl_typesupport_introspection_c.h\n'}
+[19.750889] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__rosidl_typesupport_introspection_c.h\n'}
+[19.751003] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__type_support.c\n'}
+[19.751100] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__rosidl_typesupport_introspection_c.h\n'}
+[19.751217] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.751407] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_typesupport_introspection_c.so\n'}
+[19.751861] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.752007] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_typesupport_c.so\n'}
+[19.752380] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_typesupport_c.so" to ""\n'}
+[19.752590] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world\n'}
+[19.752787] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv\n'}
+[19.752953] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/payload_trigger.hpp\n'}
+[19.753115] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail\n'}
+[19.753242] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__type_support.hpp\n'}
+[19.753423] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__builder.hpp\n'}
+[19.753699] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__traits.hpp\n'}
+[19.753775] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__struct.hpp\n'}
+[19.753874] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg\n'}
+[19.753933] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/move_command.hpp\n'}
+[19.754016] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/enemy_down.hpp\n'}
+[19.754122] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail\n'}
+[19.754179] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__builder.hpp\n'}
+[19.754257] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__builder.hpp\n'}
+[19.754312] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__struct.hpp\n'}
+[19.754407] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__type_support.hpp\n'}
+[19.754469] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__builder.hpp\n'}
+[19.754557] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__traits.hpp\n'}
+[19.754613] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__type_support.hpp\n'}
+[19.754725] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__struct.hpp\n'}
+[19.754834] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__struct.hpp\n'}
+[19.754919] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__struct.hpp\n'}
+[19.755054] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__struct.hpp\n'}
+[19.755191] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__builder.hpp\n'}
+[19.755333] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__builder.hpp\n'}
+[19.755455] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__builder.hpp\n'}
+[19.755611] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__struct.hpp\n'}
+[19.755751] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__type_support.hpp\n'}
+[19.755888] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__type_support.hpp\n'}
+[19.756010] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__type_support.hpp\n'}
+[19.756158] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__traits.hpp\n'}
+[19.756645] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__struct.hpp\n'}
+[19.756868] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__type_support.hpp\n'}
+[19.757222] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__traits.hpp\n'}
+[19.757402] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__traits.hpp\n'}
+[19.757666] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__type_support.hpp\n'}
+[19.757870] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__builder.hpp\n'}
+[19.758062] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__traits.hpp\n'}
+[19.758222] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__traits.hpp\n'}
+[19.758383] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__traits.hpp\n'}
+[19.758488] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/local_scan.hpp\n'}
+[19.758653] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/student_status.hpp\n'}
+[19.758730] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/cell_observation.hpp\n'}
+[19.758874] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/robot_metrics.hpp\n'}
+[19.758969] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/robot_result.hpp\n'}
+[19.759052] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[19.759108] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world\n'}
+[19.759257] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv\n'}
+[19.759394] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail\n'}
+[19.759455] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.759555] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/dds_fastrtps\n'}
+[19.759612] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg\n'}
+[19.759711] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail\n'}
+[19.759805] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.759940] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.760001] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.760137] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.760224] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.760298] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.760352] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/dds_fastrtps\n'}
+[19.760475] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.760637] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.760744] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.762347] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[19.762526] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world\n'}
+[19.762602] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv\n'}
+[19.762739] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail\n'}
+[19.762799] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.762981] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/srv/detail/payload_trigger__type_support.cpp\n'}
+[19.763050] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg\n'}
+[19.763149] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail\n'}
+[19.763287] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.763363] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__type_support.cpp\n'}
+[19.763476] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.763623] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.763702] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__type_support.cpp\n'}
+[19.763755] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.764028] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__type_support.cpp\n'}
+[19.764161] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/enemy_down__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.764310] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/move_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.764440] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_result__type_support.cpp\n'}
+[19.764578] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/student_status__type_support.cpp\n'}
+[19.764771] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/cell_observation__type_support.cpp\n'}
+[19.764896] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/robot_metrics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.765032] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/msg/detail/local_scan__type_support.cpp\n'}
+[19.765227] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_typesupport_introspection_cpp.so\n'}
+[19.766181] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[19.766457] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_typesupport_cpp.so\n'}
+[19.767203] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_typesupport_cpp.so" to ""\n'}
+[19.767395] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/environment/pythonpath.sh\n'}
+[19.767568] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/environment/pythonpath.dsv\n'}
+[19.767671] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world-0.1.0-py3.12.egg-info\n'}
+[19.768355] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world-0.1.0-py3.12.egg-info/PKG-INFO\n'}
+[19.768522] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world-0.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[19.768665] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world-0.1.0-py3.12.egg-info/top_level.txt\n'}
+[19.768815] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world-0.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[19.768938] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world\n'}
+[19.769237] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/underground_world_s__rosidl_typesupport_c.so\n'}
+[19.769433] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/srv\n'}
+[19.769757] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/srv/_payload_trigger.py\n'}
+[19.769907] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/srv/_payload_trigger_s.c\n'}
+[19.770048] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/srv/__init__.py\n'}
+[19.770180] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/_underground_world_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[19.770409] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/underground_world_s__rosidl_typesupport_introspection_c.so\n'}
+[19.770615] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/_underground_world_s.ep.rosidl_typesupport_c.c\n'}
+[19.770874] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/_underground_world_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[19.771014] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/underground_world_s__rosidl_typesupport_fastrtps_c.so\n'}
+[19.771228] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/__init__.py\n'}
+[19.771352] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg\n'}
+[19.771667] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_move_command_s.c\n'}
+[19.771801] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_cell_observation_s.c\n'}
+[19.771947] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_enemy_down.py\n'}
+[19.772082] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_robot_metrics.py\n'}
+[19.772233] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_robot_result_s.c\n'}
+[19.772367] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_student_status.py\n'}
+[19.772503] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_student_status_s.c\n'}
+[19.772631] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_robot_metrics_s.c\n'}
+[19.772761] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_enemy_down_s.c\n'}
+[19.772893] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_move_command.py\n'}
+[19.772978] (-) TimerEvent: {}
+[19.773075] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_robot_result.py\n'}
+[19.773241] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_local_scan.py\n'}
+[19.773492] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_local_scan_s.c\n'}
+[19.773745] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_cell_observation.py\n'}
+[19.773976] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/__init__.py\n'}
+[19.815488] (underground_world) StdoutLine: {'line': b"Listing '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world'...\n"}
+[19.815747] (underground_world) StdoutLine: {'line': b"Compiling '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/__init__.py'...\n"}
+[19.815847] (underground_world) StdoutLine: {'line': b"Listing '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg'...\n"}
+[19.815932] (underground_world) StdoutLine: {'line': b"Compiling '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/__init__.py'...\n"}
+[19.816009] (underground_world) StdoutLine: {'line': b"Compiling '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_cell_observation.py'...\n"}
+[19.816086] (underground_world) StdoutLine: {'line': b"Compiling '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_enemy_down.py'...\n"}
+[19.816162] (underground_world) StdoutLine: {'line': b"Compiling '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_local_scan.py'...\n"}
+[19.816235] (underground_world) StdoutLine: {'line': b"Compiling '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_move_command.py'...\n"}
+[19.816337] (underground_world) StdoutLine: {'line': b"Compiling '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_robot_metrics.py'...\n"}
+[19.816458] (underground_world) StdoutLine: {'line': b"Compiling '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_robot_result.py'...\n"}
+[19.816522] (underground_world) StdoutLine: {'line': b"Compiling '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/msg/_student_status.py'...\n"}
+[19.816609] (underground_world) StdoutLine: {'line': b"Listing '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/srv'...\n"}
+[19.816682] (underground_world) StdoutLine: {'line': b"Compiling '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/srv/__init__.py'...\n"}
+[19.816755] (underground_world) StdoutLine: {'line': b"Compiling '/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/srv/_payload_trigger.py'...\n"}
+[19.820838] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/underground_world_s__rosidl_typesupport_fastrtps_c.so\n'}
+[19.821322] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/underground_world_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.821573] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/underground_world_s__rosidl_typesupport_introspection_c.so\n'}
+[19.821897] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/underground_world_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.822180] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/underground_world_s__rosidl_typesupport_c.so\n'}
+[19.822615] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/python3.12/site-packages/underground_world/underground_world_s__rosidl_typesupport_c.so" to ""\n'}
+[19.822740] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_generator_py.so\n'}
+[19.823473] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world__rosidl_generator_py.so" to ""\n'}
+[19.823787] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/ament_index/resource_index/rust_packages/underground_world\n'}
+[19.823986] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/rust\n'}
+[19.824318] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/rust/Cargo.toml\n'}
+[19.824562] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/rust/build.rs\n'}
+[19.824658] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/rust/src\n'}
+[19.824798] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/rust/src/srv\n'}
+[19.825118] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/rust/src/srv/rmw.rs\n'}
+[19.825257] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/rust/src/lib.rs\n'}
+[19.825396] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/rust/src/msg.rs\n'}
+[19.825523] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/rust/src/srv.rs\n'}
+[19.825651] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/rust/src/msg\n'}
+[19.825965] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/rust/src/msg/rmw.rs\n'}
+[19.826154] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/CellObservation.idl\n'}
+[19.826364] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/LocalScan.idl\n'}
+[19.826525] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/MoveCommand.idl\n'}
+[19.826691] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/EnemyDown.idl\n'}
+[19.826854] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/RobotMetrics.idl\n'}
+[19.827029] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/RobotResult.idl\n'}
+[19.827211] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/StudentStatus.idl\n'}
+[19.827374] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/srv/PayloadTrigger.idl\n'}
+[19.827545] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/CellObservation.msg\n'}
+[19.827727] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/LocalScan.msg\n'}
+[19.827878] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/MoveCommand.msg\n'}
+[19.828059] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/EnemyDown.msg\n'}
+[19.828193] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/RobotMetrics.msg\n'}
+[19.828353] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/RobotResult.msg\n'}
+[19.828567] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/msg/StudentStatus.msg\n'}
+[19.828699] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/srv/PayloadTrigger.srv\n'}
+[19.828967] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world\n'}
+[19.829121] (underground_world) StdoutLine: {'line': b'-- Up-to-date: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world\n'}
+[19.829295] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/world_model.hpp\n'}
+[19.829461] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/pathfinder_service.hpp\n'}
+[19.829556] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/scenario_loader.hpp\n'}
+[19.829696] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/include/underground_world/underground_world/scenario.hpp\n'}
+[19.829768] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world_core.so\n'}
+[19.831929] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/libunderground_world_core.so" to ""\n'}
+[19.832271] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/underground_world/underground_world_node\n'}
+[19.861624] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/underground_world/underground_world_node" to ""\n'}
+[19.861965] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/underground_world/pathfinder_move_node\n'}
+[19.873139] (-) TimerEvent: {}
+[19.881775] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/underground_world/pathfinder_move_node" to ""\n'}
+[19.881951] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/underground_world/payload_trigger_node\n'}
+[19.887408] (underground_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/lib/underground_world/payload_trigger_node" to ""\n'}
+[19.887563] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/launch\n'}
+[19.887872] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/launch/system.launch.py\n'}
+[19.888835] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/config\n'}
+[19.889225] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/config/branching_trench.yaml\n'}
+[19.889637] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/config/small_rooms.yaml\n'}
+[19.890149] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/config/dead_end_bunker.yaml\n'}
+[19.890494] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/config/training_corridor.yaml\n'}
+[19.891196] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/ament_index/resource_index/package_run_dependencies/underground_world\n'}
+[19.891701] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/ament_index/resource_index/parent_prefix_path/underground_world\n'}
+[19.891900] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/environment/ament_prefix_path.sh\n'}
+[19.892084] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/environment/ament_prefix_path.dsv\n'}
+[19.892256] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/environment/path.sh\n'}
+[19.892423] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/environment/path.dsv\n'}
+[19.892604] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/local_setup.bash\n'}
+[19.892776] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/local_setup.sh\n'}
+[19.892992] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/local_setup.zsh\n'}
+[19.893174] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/local_setup.dsv\n'}
+[19.893339] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/package.dsv\n'}
+[19.893795] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/ament_index/resource_index/packages/underground_world\n'}
+[19.894405] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/export_underground_world__rosidl_generator_cExport.cmake\n'}
+[19.894974] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/export_underground_world__rosidl_generator_cExport-debug.cmake\n'}
+[19.895179] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/export_underground_world__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.895301] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/export_underground_world__rosidl_typesupport_fastrtps_cExport-debug.cmake\n'}
+[19.895456] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/underground_world__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.895532] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/underground_world__rosidl_typesupport_introspection_cExport-debug.cmake\n'}
+[19.895649] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/underground_world__rosidl_typesupport_cExport.cmake\n'}
+[19.895735] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/underground_world__rosidl_typesupport_cExport-debug.cmake\n'}
+[19.895845] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/export_underground_world__rosidl_generator_cppExport.cmake\n'}
+[19.895992] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/export_underground_world__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.896167] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/export_underground_world__rosidl_typesupport_fastrtps_cppExport-debug.cmake\n'}
+[19.896355] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/underground_world__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.896547] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/underground_world__rosidl_typesupport_introspection_cppExport-debug.cmake\n'}
+[19.896739] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/underground_world__rosidl_typesupport_cppExport.cmake\n'}
+[19.896919] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/underground_world__rosidl_typesupport_cppExport-debug.cmake\n'}
+[19.897091] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/export_underground_world__rosidl_generator_pyExport.cmake\n'}
+[19.897264] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/export_underground_world__rosidl_generator_pyExport-debug.cmake\n'}
+[19.897442] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/rosidl_cmake-extras.cmake\n'}
+[19.897612] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.897826] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.898080] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.898288] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.898433] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.898613] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.898918] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[19.899100] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/underground_worldConfig.cmake\n'}
+[19.899295] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/cmake/underground_worldConfig-version.cmake\n'}
+[19.899387] (underground_world) StdoutLine: {'line': b'-- Installing: /home/mickaborscha/ros_hallway_pathfinder/robot_ws/install/underground_world/share/underground_world/package.xml\n'}
+[19.901278] (underground_world) CommandEnded: {'returncode': 0}
+[19.929077] (underground_world) JobEnded: {'identifier': 'underground_world', 'rc': 0}
+[19.930012] (-) EventReactorShutdown: {}

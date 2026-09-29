@@ -1,0 +1,4 @@
+source;share/underground_world/local_setup.bash
+source;share/underground_world/local_setup.dsv
+source;share/underground_world/local_setup.sh
+source;share/underground_world/local_setup.zsh

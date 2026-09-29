@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from underground_world/srv/PayloadTrigger.srv
+// generated code does not contain a copyright notice
+
+
+module underground_world {
+  module srv {
+    struct PayloadTrigger_Request {
+      int32 contact_id;
+
+      int32 x;
+
+      int32 y;
+    };
+    struct PayloadTrigger_Response {
+      boolean accepted;
+
+      string reason;
+    };
+  };
+};
